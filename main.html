@@ -1,15 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>COVID-19 Statistics</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: auto;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        caption {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
-    <!-- add table here -->
-
-        
+    <table>
+        <caption>COVID-19 Statistics by Region</caption>
+        <thead>
+            <tr>
+                <th>Region</th>
+                <th>Confirmed Cases</th>
+                <th>Recovered</th>
+                <th>Deaths</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>New York</td>
+                <td>120,000</td>
+                <td>95,000</td>
+                <td>3,500</td>
+            </tr>
+            <tr>
+                <td>Los Angeles</td>
+                <td>90,000</td>
+                <td>78,000</td>
+                <td>1,200</td>
+            </tr>
+            <tr>
+                <td>Miami</td>
+                <td>60,000</td>
+                <td>55,000</td>
+                <td>900</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
+
